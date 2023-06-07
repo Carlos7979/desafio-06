@@ -10,6 +10,6 @@ const {
 ;(async () => {
     await connect(url, { useNewUrlParser: true })
     app.listen(port, () => {
-        console.log(`Desafío 5 app listening on port ${port}`)
+        console.log(`Desafío 6 app listening on port ${port}`)
     })
 })()
